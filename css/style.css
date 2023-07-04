@@ -71,7 +71,7 @@ nav ul {
 
 .banner {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 85px;
 }
 
 .bannert h3 {
@@ -116,10 +116,12 @@ h1 {
 
 .main-content {
   display: flex;
+  /* overflow: hidden; */
 }
 
 .content-1 {
   padding: 47px;
+  text-align: center;
 }
 
 .content-1 img {
@@ -127,6 +129,7 @@ h1 {
   box-shadow: 10px 10px 2px #8080807d;
   width: 451px;
   height: 342px;
+  margin: auto;
 }
 .content-1 h2 {
   /* margin: 18px; */
@@ -233,3 +236,38 @@ h1 {
 }
 
 /* <---------- Footer Section ---------> */
+
+/* <----- Responsive Design ------> */
+
+/* For Mobile */
+
+@media only screen and (max-width: 667px) {
+  header {
+    width: 100%;
+    max-width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .header-item {
+    display: inline-block;
+  }
+  .logo {
+    margin-top: 15px;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
+
+  .main-section {
+    text-align: center;
+  }
+
+  .main-content {
+    display: inline-block;
+  }
+  .main {
+    display: inline-block;
+  }
+}
